@@ -24,7 +24,7 @@ function setup() {
   btn2 = createImg('up.png');
   btn2.position(100,300);
   btn2.size(50,50); 
-  btn2.mouseClicked(Force);
+  btn2.mouseClicked(vForce);
   
   ground =new Ground(200,390,400,20);
   right = new Ground(390,200,20,400);
